@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Followers" xml:space="preserve">
+    <value>Abonné(e)s</value>
+  </data>
+  <data name="Following" xml:space="preserve">
+    <value>Abonnements</value>
+  </data>
+  <data name="OpenInBrowser" xml:space="preserve">
+    <value>Ouvrir dans le navigateur</value>
+  </data>
+  <data name="Statuses" xml:space="preserve">
+    <value>Statuts</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Vide</value>
+  </data>
+  <data name="LoadingFailed" xml:space="preserve">
+    <value>Échec</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Sauvegarder</value>
+  </data>
+  <data name="DomainError" xml:space="preserve">
+    <value>Please check the domain again</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Connexion</value>
+  </data>
+  <data name="LoginDesc" xml:space="preserve">
+    <value>Se connecter à n'importe quelle instance!</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Échec de la connexion</value>
+  </data>
+  <data name="Me" xml:space="preserve">
+    <value>Compte</value>
+  </data>
+  <data name="TimelineFederated" xml:space="preserve">
+    <value>Fil public global</value>
+  </data>
+  <data name="SplitViewPaneLength" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Accueil</value>
+  </data>
+  <data name="TimelineLocal" xml:space="preserve">
+    <value>Fil public local</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Actualiser</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Chercher</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="Toot" xml:space="preserve">
+    <value>Pouet</value>
+  </data>
+  <data name="ProgressDialogText" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="PullToRefresh" xml:space="preserve">
+    <value>Tirer pour actualiser</value>
+  </data>
+  <data name="ReleaseToRefresh" xml:space="preserve">
+    <value>Lâcher pour actualiser</value>
+  </data>
+  <data name="SendDraft_Error" xml:space="preserve">
+    <value>Erreur d'envoi</value>
+  </data>
+  <data name="SendDraft_OK" xml:space="preserve">
+    <value>Pouet!</value>
+  </data>
+  <data name="AccountManagement" xml:space="preserve">
+    <value>Comptes</value>
+  </data>
+  <data name="AddAccount" xml:space="preserve">
+    <value>Ajouter un compte</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>Personnaliser</value>
+  </data>
+  <data name="EnableBladeView" xml:space="preserve">
+    <value>Activer la vue en cascade(Redémarrage nécessaire)</value>
+  </data>
+  <data name="EnableFederatedTimeline" xml:space="preserve">
+    <value>Activer le fil public global</value>
+  </data>
+  <data name="EnableLocalTimeline" xml:space="preserve">
+    <value>Activer le fil public local</value>
+  </data>
+  <data name="IsDarkTheme" xml:space="preserve">
+    <value>Activer le thème sombre</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Déconnexion</value>
+  </data>
+  <data name="FavouritedBy" xml:space="preserve">
+    <value>a ajouté à ses favoris</value>
+  </data>
+  <data name="FollowedBy" xml:space="preserve">
+    <value>vous suit</value>
+  </data>
+  <data name="MentionedBy" xml:space="preserve">
+    <value>vous a mentionné</value>
+  </data>
+  <data name="RebloggedBy" xml:space="preserve">
+    <value>a partagé votre statut</value>
+  </data>
+  <data name="BlockUser" xml:space="preserve">
+    <value>Bloquer @{0}</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="ExpandStatus" xml:space="preserve">
+    <value>Déplier ce statut</value>
+  </data>
+  <data name="MentionUser" xml:space="preserve">
+    <value>Mentionner @{0}</value>
+  </data>
+  <data name="MuteUser" xml:space="preserve">
+    <value>Masquer @{0}</value>
+  </data>
+  <data name="ReportUser" xml:space="preserve">
+    <value>Signaler @{0}</value>
+  </data>
+  <data name="UnBlockUser" xml:space="preserve">
+    <value>Débloquer @{0}</value>
+  </data>
+  <data name="UnMuteUser" xml:space="preserve">
+    <value>Montrer @{0}</value>
+  </data>
+  <data name="ClickToView" xml:space="preserve">
+    <value>Cliquer pour voir</value>
+  </data>
+  <data name="ShowMore" xml:space="preserve">
+    <value>Montrer plus</value>
+  </data>
+  <data name="Sensitive" xml:space="preserve">
+    <value>Contenu sensible</value>
+  </data>
+  <data name="ContentWarning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+  <data name="AddMultipleImage" xml:space="preserve">
+    <value>Ajouter plusieurs images</value>
+  </data>
+  <data name="AddSingleImage" xml:space="preserve">
+    <value>Ajouter une image</value>
+  </data>
+  <data name="ContentWarningShort" xml:space="preserve">
+    <value>CW</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>Retirer</value>
+  </data>
+  <data name="NSFW" xml:space="preserve">
+    <value>NSFW</value>
+  </data>
+  <data name="TootPlaceholder" xml:space="preserve">
+    <value>Qu'avez-vous en tête?</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Prendre une photo</value>
+  </data>
+  <data name="SendToot" xml:space="preserve">
+    <value>POUET!</value>
+  </data>
+  <data name="TootVisibility_Direct_Description" xml:space="preserve">
+    <value>N'afficher que pour les personnes mentionnées </value>
+  </data>
+  <data name="TootVisibility_Direct_Title" xml:space="preserve">
+    <value>Direct</value>
+  </data>
+  <data name="TootVisibility_Private_Description" xml:space="preserve">
+    <value>N'afficher que pour vos abonné(e)s</value>
+  </data>
+  <data name="TootVisibility_Private_Title" xml:space="preserve">
+    <value>Privé</value>
+  </data>
+  <data name="TootVisibility_Public_Description" xml:space="preserve">
+    <value>Afficher dans les fils publics</value>
+  </data>
+  <data name="TootVisibility_Public_Title" xml:space="preserve">
+    <value>Public</value>
+  </data>
+  <data name="TootVisibility_Unlisted_Description" xml:space="preserve">
+    <value>Ne pas afficher dans les fils publics</value>
+  </data>
+  <data name="TootVisibility_Unlisted_Title" xml:space="preserve">
+    <value>Non-listé</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Retour</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Plus</value>
+  </data>
+  <data name="OnlyMedia" xml:space="preserve">
+    <value>Media seulement</value>
+  </data>
+  <data name="ExcludeReplies" xml:space="preserve">
+    <value>Exclure les réponses</value>
+  </data>
+</root>
